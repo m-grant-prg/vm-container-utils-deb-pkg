@@ -1,0 +1,392 @@
+vm-container-utils (1.1.1-deb11u1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 21 Nov 2022 14:36:57 +0000
+
+vm-container-utils (1.0.16-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 24 Jun 2022 11:19:05 +0100
+
+vm-container-utils (1.0.15+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 23 Jun 2022 09:43:39 +0100
+
+vm-container-utils (1.0.15+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 14 Jun 2022 09:14:17 +0100
+
+vm-container-utils (1.0.15-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 24 May 2022 10:26:45 +0100
+
+vm-container-utils (1.0.14+rc6-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 May 2022 15:00:29 +0100
+
+vm-container-utils (1.0.14+rc5-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 May 2022 11:10:59 +0100
+
+vm-container-utils (1.0.14+rc4-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 08 May 2022 16:01:28 +0100
+
+vm-container-utils (1.0.14+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 08 May 2022 14:28:19 +0100
+
+vm-container-utils (1.0.14+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 05 May 2022 15:35:26 +0100
+
+vm-container-utils (1.0.14+rc1-deb11u2) bullseye; urgency=medium
+
+  * Add dependency on OBS signing key package.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 29 Apr 2022 16:01:56 +0100
+
+vm-container-utils (1.0.14+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 14 Mar 2022 10:53:56 +0000
+
+vm-container-utils (1.0.14-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Add depends on xmlstarlet. Required for lqvm.
+  * Update Copyright for 2022.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 10 Feb 2022 09:41:13 +0000
+
+vm-container-utils (1.0.13+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 25 Jan 2022 15:00:15 +0000
+
+vm-container-utils (1.0.13+rc2-deb11u3) bullseye; urgency=medium
+
+  * Force removal of obsolete obs-debian-keyring.gpg config file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 24 Jan 2022 10:29:30 +0000
+
+vm-container-utils (1.0.13+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 24 Jan 2022 09:44:30 +0000
+
+vm-container-utils (1.0.13+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 11 Jan 2022 15:05:42 +0000
+
+vm-container-utils (1.0.13-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 21 Dec 2021 09:50:41 +0000
+
+vm-container-utils (1.0.12+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 19 Dec 2021 10:36:27 +0000
+
+vm-container-utils (1.0.12+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+  * Correct license in copyright.
+  * Update to compatibility level 13.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Dec 2021 15:46:08 +0000
+
+vm-container-utils (1.0.12+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 28 Nov 2021 10:40:18 +0000
+
+vm-container-utils (1.0.12-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 06 Nov 2021 10:22:14 +0000
+
+vm-container-utils (1.0.11+rc5-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 04 Nov 2021 14:22:16 +0000
+
+vm-container-utils (1.0.11+rc4-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 26 Sep 2021 14:21:56 +0100
+
+vm-container-utils (1.0.11+rc3-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 23 Sep 2021 14:22:35 +0100
+
+vm-container-utils (1.0.11+rc2-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 21 Sep 2021 15:39:16 +0100
+
+vm-container-utils (1.0.11+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 18 Sep 2021 15:23:37 +0100
+
+vm-container-utils (1.0.11-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Reviewed up to current standards version 4.5.1
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 13 Sep 2021 09:57:31 +0100
+
+vm-container-utils (1.0.10+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 07 Sep 2021 10:16:40 +0100
+
+vm-container-utils (1.0.10-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 04 Sep 2021 10:14:18 +0100
+
+vm-container-utils (1.0.9+rc1-deb11u1) bullseye; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 Sep 2021 10:37:08 +0100
+
+vm-container-utils (1.0.9-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 02 Sep 2021 15:03:06 +0100
+
+vm-container-utils (1.0.8-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 Aug 2021 14:38:34 +0100
+
+vm-container-utils (1.0.7+rc4-deb11u1) bullseye; urgency=medium
+
+  * Create bullseye branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 20 Aug 2021 09:16:26 +0100
+
+vm-container-utils (1.0.7+rc4-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+  * Remove unnecessary .docs file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 06 Aug 2021 15:29:26 +0100
+
+vm-container-utils (1.0.7+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 27 Jul 2021 10:46:52 +0100
+
+vm-container-utils (1.0.7+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 27 Jul 2021 10:24:06 +0100
+
+vm-container-utils (1.0.7+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 26 Jul 2021 10:28:52 +0100
+
+vm-container-utils (1.0.7-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 29 Apr 2021 15:36:49 +0100
+
+vm-container-utils (1.0.6+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Apr 2021 15:43:41 +0100
+
+vm-container-utils (1.0.6-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 26 Mar 2021 09:23:52 +0000
+
+vm-container-utils (1.0.5+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 16 Mar 2021 13:40:30 +0000
+
+vm-container-utils (1.0.5-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 26 Feb 2021 09:32:30 +0000
+
+vm-container-utils (1.0.4+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 15 Feb 2021 15:57:16 +0000
+
+vm-container-utils (1.0.4+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+    Update Debian Copyright file for 2021.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 13 Feb 2021 15:15:01 +0000
+
+vm-container-utils (1.0.4-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 26 Dec 2020 10:33:04 +0000
+
+vm-container-utils (1.0.3+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 14 Dec 2020 15:19:27 +0000
+
+vm-container-utils (1.0.3-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+    Package reviewed up to current standards version 4.3.0
+    Upgrade to compatibility level 12.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 29 Nov 2020 13:42:41 +0000
+
+vm-container-utils (1.0.2+rc10-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 26 Nov 2020 15:02:16 +0000
+
+vm-container-utils (1.0.2+rc9-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 Nov 2020 14:30:47 +0000
+
+vm-container-utils (1.0.2+rc8-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 22 Nov 2020 15:39:13 +0000
+
+vm-container-utils (1.0.2+rc7-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 18 Nov 2020 09:26:00 +0000
+
+vm-container-utils (1.0.2+rc6-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 15 Nov 2020 14:44:49 +0000
+
+vm-container-utils (1.0.2+rc5-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 14 Nov 2020 15:40:35 +0000
+
+vm-container-utils (1.0.2+rc4-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 13 Nov 2020 14:55:06 +0000
+
+vm-container-utils (1.0.2+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 12 Nov 2020 10:46:23 +0000
+
+vm-container-utils (1.0.2+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 15 Oct 2020 10:14:23 +0100
+
+vm-container-utils (1.0.2+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 14 Oct 2020 14:32:52 +0100
+
+vm-container-utils (1.0.2-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 07 Oct 2020 10:50:42 +0100
+
+vm-container-utils (1.0.1+rc3-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 05 Oct 2020 10:06:26 +0100
+
+vm-container-utils (1.0.1+rc2-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 05 Oct 2020 09:08:03 +0100
+
+vm-container-utils (1.0.1+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 01 Oct 2020 15:10:07 +0100
+
+vm-container-utils (1.0.1-deb10u1) buster; urgency=medium
+
+  * Initial public release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 29 Aug 2020 11:03:13 +0100
+
+vm-container-utils (1.0.0+rc1-deb10u1) buster; urgency=medium
+
+  * Initial release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 27 Aug 2020 15:34:21 +0100
