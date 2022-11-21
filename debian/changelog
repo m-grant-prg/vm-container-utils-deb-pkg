@@ -1,8 +1,8 @@
-vm-container-utils (1.1.1-0ubuntu20.04u1) UNRELEASED; urgency=medium
+vm-container-utils (1.1.1-0ubuntu20.04u1) focal; urgency=medium
 
   * New upstream release.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 21 Nov 2022 15:15:27 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 21 Nov 2022 15:16:26 +0000
 
 vm-container-utils (1.0.16-0ubuntu20.04u1) focal; urgency=medium
 
