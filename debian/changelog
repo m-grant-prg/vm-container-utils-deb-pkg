@@ -1,3 +1,9 @@
+vm-container-utils (1.1.5~rc2+deb11u1) UNRELEASED; urgency=medium
+
+  * Add postinst removal of EOL config files.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 27 Apr 2023 15:35:41 +0100
+
 vm-container-utils (1.1.5~rc1+deb11u1) bullseye; urgency=medium
 
   * Merge new upstream development release.
