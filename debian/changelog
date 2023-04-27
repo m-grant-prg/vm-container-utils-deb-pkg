@@ -1,3 +1,10 @@
+vm-container-utils (1.1.5~rc1+deb11u1) UNRELEASED; urgency=medium
+
+  * Merge new upstream development release.
+  * Convert -rc1 to ~rc1 in watch file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 27 Apr 2023 08:51:49 +0100
+
 vm-container-utils (1.1.4) bullseye; urgency=medium
 
   * Merge new upstream release.
