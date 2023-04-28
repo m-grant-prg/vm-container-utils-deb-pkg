@@ -1,3 +1,9 @@
+vm-container-utils (1.1.5~rc2+deb11u2) UNRELEASED; urgency=medium
+
+  * Remove EOL 36 conf files in postinst.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 28 Apr 2023 10:46:38 +0100
+
 vm-container-utils (1.1.5~rc2+deb11u1) bullseye; urgency=medium
 
   * Add postinst removal of EOL config files.

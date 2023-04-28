@@ -26,6 +26,7 @@
 # 24/01/2022	MG	1.0.1	First release.				#
 # 27/04/2023	MG	1.0.2	Add retired release configuration file	#
 #				cleanup.				#
+# 28/04/2023	MG	1.0.3	Remove EOL 36.				#
 #									#
 #########################################################################
 
@@ -44,6 +45,7 @@ version=1.0.2				# set version variable
 rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
 rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/36
 rm -fr /etc/lxcu/fedora/35
 rm -fr /etc/lxcu/opensuse/15.3
 rm -fr /etc/lxcu/ubuntu/xenial
