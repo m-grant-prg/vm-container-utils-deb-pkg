@@ -1,3 +1,9 @@
+vm-container-utils (1.1.5~rc8+deb11u1) UNRELEASED; urgency=medium
+
+  * Merge new upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 09 Jun 2023 13:37:33 +0100
+
 vm-container-utils (1.1.5~rc7+deb11u1) bullseye; urgency=medium
 
   * Merge new upstream development release.
