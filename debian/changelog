@@ -3,6 +3,7 @@ vm-container-utils (1.1.5-0ubuntu22.04u1) UNRELEASED; urgency=medium
   * Merge new upstream release.
   * Update watch file to support ~.
   * Correct copyright.
+  * Update postinst.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 08:41:12 +0100
 
