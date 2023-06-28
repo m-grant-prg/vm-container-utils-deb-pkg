@@ -1,0 +1,58 @@
+#! /usr/bin/env bash
+#########################################################################
+#									#
+# Script ID: postinst							#
+# Author: Copyright (C) 2022, 2023  Mark Grant				#
+#									#
+# Released under the GPLv3 only.					#
+# SPDX-License-Identifier: GPL-3.0					#
+#									#
+# Purpose:								#
+# A Debian package post installation script for the vm-container-utils	#
+# package. The script ensures that the obsolete, and if present now	#
+# erroneous, config files are removed.					#
+#									#
+# Exit Codes:	0 - success						#
+#		1 - failure						#
+#									#
+#########################################################################
+
+#########################################################################
+#									#
+# Changelog								#
+#									#
+# Date		Author	Version	Description				#
+#									#
+# 24/01/2022	MG	1.0.1	First release.				#
+# 27/04/2023	MG	1.0.2	Add retired release configuration file	#
+#				cleanup.				#
+# 28/04/2023	MG	1.0.3	Remove EOL 36.				#
+# 07/05/2023	MG	1.0.4	Remove EOL bionic.			#
+#									#
+#########################################################################
+
+# Bail out on error.
+set -e
+
+##################
+# Init variables #
+##################
+version=1.0.4				# set version variable
+
+########
+# Main #
+########
+
+rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
+
+rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/36
+rm -fr /etc/lxcu/fedora/35
+rm -fr /etc/lxcu/opensuse/15.3
+rm -fr /etc/lxcu/ubuntu/xenial
+rm -fr /etc/lxcu/ubuntu/bionic
+
+#DEBHELPER#
+
+exit 0
+
