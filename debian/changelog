@@ -1,11 +1,11 @@
-vm-container-utils (1.1.5-0ubuntu22.04u1) UNRELEASED; urgency=medium
+vm-container-utils (1.1.5-0ubuntu22.04u1) jammy; urgency=medium
 
   * Merge new upstream release.
   * Update watch file to support ~.
   * Correct copyright.
   * Update postinst.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 08:41:12 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 08:44:54 +0100
 
 vm-container-utils (1.1.3-0ubuntu22.04u1) jammy; urgency=medium
 
