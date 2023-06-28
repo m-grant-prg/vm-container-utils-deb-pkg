@@ -3,6 +3,7 @@ vm-container-utils (1.1.5-0ubuntu20.04u1) UNRELEASED; urgency=medium
   * Merge new upstream release.
   * Update watch file to support ~.
   * Correct copyright.
+  * Add postinst cleanup.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 07:32:07 +0100
 
