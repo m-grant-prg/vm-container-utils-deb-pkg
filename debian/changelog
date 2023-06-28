@@ -1,8 +1,8 @@
-vm-container-utils (1.1.5+deb12u1) UNRELEASED; urgency=medium
+vm-container-utils (1.1.5+deb12u1) bookworm; urgency=medium
 
   * Create bookworm branch.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 07:21:01 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 28 Jun 2023 07:21:54 +0100
 
 vm-container-utils (1.1.5+deb11u1) bullseye; urgency=medium
 
