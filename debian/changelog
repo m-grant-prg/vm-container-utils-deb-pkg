@@ -1,11 +1,11 @@
-vm-container-utils (1.1.6-0ubuntu20.04u1) UNRELEASED; urgency=medium
+vm-container-utils (1.1.6-0ubuntu20.04u1) focal; urgency=medium
 
   * Merge new upstream release.
   * Remove txt2man, rely on txt2manwrap dependencies.
   * Correct upstream name in copyright file.
   * Change Debian source format to native.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 11 Aug 2023 10:44:41 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 11 Aug 2023 10:49:15 +0100
 
 vm-container-utils (1.1.5-0ubuntu20.04u2) focal; urgency=medium
 
