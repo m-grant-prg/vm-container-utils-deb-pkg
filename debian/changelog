@@ -1,6 +1,7 @@
 vm-container-utils (1.1.6+deb11u1) UNRELEASED; urgency=medium
 
   * Merge new upstream release.
+  * Remove txt2man, rely on txt2manwrap dependencies.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Fri, 11 Aug 2023 10:34:59 +0100
 
