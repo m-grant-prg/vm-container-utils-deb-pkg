@@ -3,6 +3,7 @@ vm-container-utils (1.2.0-0ubuntu22.04u1) UNRELEASED; urgency=medium
   * Merge new upstream release.
   * Remove txt2man, rely on txt2manwrap dependencies.
   * Correct upstream name in copyright file.
+  * Change Debian source format to native.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Fri, 11 Aug 2023 15:22:34 +0100
 
