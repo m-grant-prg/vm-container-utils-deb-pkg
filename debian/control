@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
 Build-Depends: debhelper (>= 12~),
 	autoconf, automake,
-	txt2man, txt2manwrap
+	txt2manwrap
 Standards-Version: 4.5.1
 Homepage: https://github.com/m-grant-prg/vm-container-utils/wiki
 Vcs-Git: https://github.com/m-grant-prg/vm-container-utils.git
