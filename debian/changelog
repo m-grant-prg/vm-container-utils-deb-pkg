@@ -1,8 +1,8 @@
-vm-container-utils (1.2.1-0ubuntu22.04u1) UNRELEASED; urgency=medium
+vm-container-utils (1.2.1-0ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 20 Oct 2023 10:17:07 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 20 Oct 2023 10:18:30 +0100
 
 vm-container-utils (1.2.0-0ubuntu22.04u1) jammy; urgency=medium
 
