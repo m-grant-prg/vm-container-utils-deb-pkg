@@ -1,3 +1,11 @@
+vm-container-utils (1.2.2-0ubuntu22.04u1) UNRELEASED; urgency=medium
+
+  * Add Depends on agmaint
+  * Add Depends on server-dependency
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 21 Oct 2023 15:04:50 +0100
+
 vm-container-utils (1.2.1-0ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
