@@ -12,8 +12,10 @@ Vcs-Browser: https://github.com/m-grant-prg/vm-container-utils
 
 Package: vm-container-utils
 Architecture: all
-Depends: ${misc:Depends}, xmlstarlet,
-	agmaint, mgrant-obs-deb-keyring, server-dependency
+Depends: xmlstarlet,
+	agmaint, server-dependency,
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
 Description: A collection of scripts to simplify some actions on virtual
  machines and conatiners.
  For libvirt, Qemu and KVM they start and stop machines and manage internal and
