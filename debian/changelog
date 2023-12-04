@@ -1,3 +1,10 @@
+vm-container-utils (1.2.3+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Re-order Depends to ease cherry picking to Ubuntu
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 04 Dec 2023 16:02:40 +0000
+
 vm-container-utils (1.2.2+deb13u1) trixie; urgency=medium
 
   * Add Depends on agmaint
