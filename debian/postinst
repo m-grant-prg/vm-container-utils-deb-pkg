@@ -28,11 +28,12 @@ set -e
 rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
 rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/37
 rm -fr /etc/lxcu/fedora/36
 rm -fr /etc/lxcu/fedora/35
 rm -fr /etc/lxcu/opensuse/15.3
-rm -fr /etc/lxcu/ubuntu/xenial
 rm -fr /etc/lxcu/ubuntu/bionic
+rm -fr /etc/lxcu/ubuntu/xenial
 
 #DEBHELPER#
 
