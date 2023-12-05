@@ -1,7 +1,6 @@
 #! /usr/bin/env bash
 #########################################################################
 #									#
-# Script ID: postinst							#
 # Author: Copyright (C) 2022, 2023  Mark Grant				#
 #									#
 # Released under the GPLv3 only.					#
@@ -17,27 +16,10 @@
 #									#
 #########################################################################
 
-#########################################################################
-#									#
-# Changelog								#
-#									#
-# Date		Author	Version	Description				#
-#									#
-# 24/01/2022	MG	1.0.1	First release.				#
-# 27/04/2023	MG	1.0.2	Add retired release configuration file	#
-#				cleanup.				#
-# 28/04/2023	MG	1.0.3	Remove EOL 36.				#
-# 07/05/2023	MG	1.0.4	Remove EOL bionic.			#
-#									#
-#########################################################################
 
 # Bail out on error.
 set -e
 
-##################
-# Init variables #
-##################
-version=1.0.4				# set version variable
 
 ########
 # Main #
