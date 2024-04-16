@@ -1,3 +1,19 @@
+vm-container-utils (1.2.4+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Remove in-file ChangeLog and versioning
+  * Remove 37 - EOL
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Remove [Build-]Depends on essential packages
+  * Add lintian override for watch file
+  * Silence lintian changelog-file-missing-explicit-entry warning
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 16 Apr 2024 09:15:55 +0100
+
 vm-container-utils (1.2.3+deb13u1) trixie; urgency=medium
 
   * New upstream release
