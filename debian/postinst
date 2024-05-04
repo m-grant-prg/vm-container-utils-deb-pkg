@@ -1,0 +1,41 @@
+#! /usr/bin/env bash
+#########################################################################
+#									#
+# Author: Copyright (C) 2022, 2023  Mark Grant				#
+#									#
+# Released under the GPLv3 only.					#
+# SPDX-License-Identifier: GPL-3.0					#
+#									#
+# Purpose:								#
+# A Debian package post installation script for the vm-container-utils	#
+# package. The script ensures that the obsolete, and if present now	#
+# erroneous, config files are removed.					#
+#									#
+# Exit Codes:	0 - success						#
+#		1 - failure						#
+#									#
+#########################################################################
+
+
+# Bail out on error.
+set -e
+
+
+########
+# Main #
+########
+
+rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
+
+rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/37
+rm -fr /etc/lxcu/fedora/36
+rm -fr /etc/lxcu/fedora/35
+rm -fr /etc/lxcu/opensuse/15.3
+rm -fr /etc/lxcu/ubuntu/bionic
+rm -fr /etc/lxcu/ubuntu/xenial
+
+#DEBHELPER#
+
+exit 0
+
