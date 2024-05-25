@@ -1,3 +1,10 @@
+vm-container-utils (1.2.6+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+  * Remove old sysconfdir for Fedora 38 - now EOL
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 25 May 2024 16:06:45 +0100
+
 vm-container-utils (1.2.5+ubuntu24.04u1) noble; urgency=medium
 
   * Create noble
