@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 #########################################################################
 #									#
-# Author: Copyright (C) 2022, 2023  Mark Grant				#
+# Author: Copyright (C) 2022-2024  Mark Grant				#
 #									#
 # Released under the GPLv3 only.					#
 # SPDX-License-Identifier: GPL-3.0					#
@@ -28,6 +28,7 @@ set -e
 rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
 rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/38
 rm -fr /etc/lxcu/fedora/37
 rm -fr /etc/lxcu/fedora/36
 rm -fr /etc/lxcu/fedora/35
