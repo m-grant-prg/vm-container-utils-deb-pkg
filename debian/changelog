@@ -1,3 +1,10 @@
+vm-container-utils (1.2.6+ubuntu22.04u1) jammy; urgency=medium
+
+  * New upstream release
+  * Remove old sysconfdir for Fedora 38 - now EOL
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 25 May 2024 16:02:11 +0100
+
 vm-container-utils (1.2.5+ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
