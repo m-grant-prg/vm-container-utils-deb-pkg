@@ -32,6 +32,7 @@ rm -fr /etc/lxcu/fedora/38
 rm -fr /etc/lxcu/fedora/37
 rm -fr /etc/lxcu/fedora/36
 rm -fr /etc/lxcu/fedora/35
+rm -fr /etc/lxcu/opensuse/15.4
 rm -fr /etc/lxcu/opensuse/15.3
 rm -fr /etc/lxcu/ubuntu/bionic
 rm -fr /etc/lxcu/ubuntu/xenial
