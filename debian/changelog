@@ -1,3 +1,10 @@
+vm-container-utils (1.2.8+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Remove buster files - EOL
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 28 Jun 2024 14:59:49 +0100
+
 vm-container-utils (1.2.7+deb13u1) trixie; urgency=medium
 
   * New upstream release
