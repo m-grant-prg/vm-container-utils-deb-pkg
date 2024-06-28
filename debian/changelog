@@ -1,3 +1,10 @@
+vm-container-utils (1.2.8+deb12u1) bookworm; urgency=medium
+
+  * New upstream release
+  * Remove buster files - EOL
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 28 Jun 2024 14:54:41 +0100
+
 vm-container-utils (1.2.7+deb12u1) bookworm; urgency=medium
 
   * New upstream release
