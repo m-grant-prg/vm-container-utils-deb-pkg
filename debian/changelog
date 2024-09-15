@@ -1,3 +1,9 @@
+vm-container-utils (1.2.9~rc1+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 15 Sep 2024 09:55:28 +0100
+
 vm-container-utils (1.2.8+deb12u1) bookworm; urgency=medium
 
   * New upstream release
