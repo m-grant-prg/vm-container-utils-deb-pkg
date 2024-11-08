@@ -29,6 +29,7 @@ rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
 rm -fr /etc/lxcu/debian/buster
 rm -fr /etc/lxcu/debian/stretch
+rm -fr /etc/lxcu/fedora/39
 rm -fr /etc/lxcu/fedora/38
 rm -fr /etc/lxcu/fedora/37
 rm -fr /etc/lxcu/fedora/36
