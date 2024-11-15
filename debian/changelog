@@ -1,3 +1,10 @@
+vm-container-utils (1.2.9+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Clean up legacy 39 artifacts
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 15 Nov 2024 10:36:09 +0000
+
 vm-container-utils (1.2.8+deb13u1) trixie; urgency=medium
 
   * New upstream release
