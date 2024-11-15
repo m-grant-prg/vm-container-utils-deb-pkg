@@ -1,3 +1,10 @@
+vm-container-utils (1.2.9+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+  * Clean up legacy 39 artifacts
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 15 Nov 2024 15:21:01 +0000
+
 vm-container-utils (1.2.8+ubuntu24.04u1) noble; urgency=medium
 
   * New upstream release
