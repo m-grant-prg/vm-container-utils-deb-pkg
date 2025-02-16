@@ -1,3 +1,10 @@
+vm-container-utils (1.2.10~rc2+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+  * Add dependency on backup-at-scripts
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 16 Feb 2025 13:34:44 +0000
+
 vm-container-utils (1.2.10~rc1+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
