@@ -1,8 +1,9 @@
-vm-container-utils (1.2.10~rc3+deb12u1) UNRELEASED; urgency=medium
+vm-container-utils (1.2.10~rc3+deb12u2) bookworm; urgency=medium
 
-  *  New upstream development release
+  * New upstream development release
+  * Bump version due to lack of dch -r run
 
- -- Mark Grant <m.grant.prg@gmail.com>  Mon, 17 Feb 2025 09:29:59 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 17 Feb 2025 09:38:01 +0000
 
 vm-container-utils (1.2.10~rc2+deb12u1) bookworm; urgency=medium
 
