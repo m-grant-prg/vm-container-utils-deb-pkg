@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 #########################################################################
 #									#
-# Author: Copyright (C) 2022-2024  Mark Grant				#
+# Author: Copyright (C) 2022-2025  Mark Grant				#
 #									#
 # Released under the GPLv3 only.					#
 # SPDX-License-Identifier: GPL-3.0					#
@@ -36,6 +36,7 @@ rm -fr /etc/lxcu/fedora/36
 rm -fr /etc/lxcu/fedora/35
 rm -fr /etc/lxcu/opensuse/15.4
 rm -fr /etc/lxcu/opensuse/15.3
+rm -fr /etc/lxcu/ubuntu/focal
 rm -fr /etc/lxcu/ubuntu/bionic
 rm -fr /etc/lxcu/ubuntu/xenial
 
