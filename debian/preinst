@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: GPL-3.0					#
 #									#
 # Purpose:								#
-# A Debian package post installation script for the vm-container-utils	#
+# A Debian package pre installation script for the vm-container-utils	#
 # package. The script ensures that the obsolete, and if present now	#
 # erroneous, config files are removed.					#
 #									#
@@ -25,20 +25,25 @@ set -e
 # Main #
 ########
 
-rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
+case "$" in
+install|upgrade)
+	if dpkg --compare-versions "$2" le "$LASTVERSION"; then
+		rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
-rm -fr /etc/lxcu/debian/buster
-rm -fr /etc/lxcu/debian/stretch
-rm -fr /etc/lxcu/fedora/39
-rm -fr /etc/lxcu/fedora/38
-rm -fr /etc/lxcu/fedora/37
-rm -fr /etc/lxcu/fedora/36
-rm -fr /etc/lxcu/fedora/35
-rm -fr /etc/lxcu/opensuse/15.4
-rm -fr /etc/lxcu/opensuse/15.3
-rm -fr /etc/lxcu/ubuntu/focal
-rm -fr /etc/lxcu/ubuntu/bionic
-rm -fr /etc/lxcu/ubuntu/xenial
+		rm -fr /etc/lxcu/debian/buster
+		rm -fr /etc/lxcu/debian/stretch
+		rm -fr /etc/lxcu/fedora/39
+		rm -fr /etc/lxcu/fedora/38
+		rm -fr /etc/lxcu/fedora/37
+		rm -fr /etc/lxcu/fedora/36
+		rm -fr /etc/lxcu/fedora/35
+		rm -fr /etc/lxcu/opensuse/15.4
+		rm -fr /etc/lxcu/opensuse/15.3
+		rm -fr /etc/lxcu/ubuntu/focal
+		rm -fr /etc/lxcu/ubuntu/bionic
+		rm -fr /etc/lxcu/ubuntu/xenial
+	fi
+esac
 
 #DEBHELPER#
 
