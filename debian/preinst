@@ -25,7 +25,7 @@ set -e
 # Main #
 ########
 
-case "$" in
+case "$1" in
 install|upgrade)
 	rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
