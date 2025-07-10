@@ -29,6 +29,7 @@ case "$1" in
 install|upgrade)
 	rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
 
+	rm -fr /etc/lxcu/debian/bullseye
 	rm -fr /etc/lxcu/debian/buster
 	rm -fr /etc/lxcu/debian/stretch
 	rm -fr /etc/lxcu/fedora/40
