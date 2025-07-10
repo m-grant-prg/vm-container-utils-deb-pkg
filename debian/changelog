@@ -1,3 +1,10 @@
+vm-container-utils (1.3.0+ubuntu24.04u1) noble; urgency=medium
+
+  * New upstream release
+  * Remove bullseye - EOL
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 10 Jul 2025 15:17:23 +0100
+
 vm-container-utils (1.2.11+ubuntu24.04u1) noble; urgency=medium
 
   * New upstream release
