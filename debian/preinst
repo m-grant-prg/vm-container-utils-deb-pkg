@@ -1,0 +1,51 @@
+#! /usr/bin/env bash
+#########################################################################
+#									#
+# Author: Copyright (C) 2022-2025  Mark Grant				#
+#									#
+# Released under the GPLv3 only.					#
+# SPDX-License-Identifier: GPL-3.0					#
+#									#
+# Purpose:								#
+# A Debian package pre installation script for the vm-container-utils	#
+# package. The script ensures that the obsolete, and if present now	#
+# erroneous, config files are removed.					#
+#									#
+# Exit Codes:	0 - success						#
+#		1 - failure						#
+#									#
+#########################################################################
+
+
+# Bail out on error.
+set -e
+
+
+########
+# Main #
+########
+
+case "$1" in
+install|upgrade)
+	rm -f /etc/lxcu/debian/*/apt/trusted.gpg.d/obs-debian-keyring.gpg
+
+	rm -fr /etc/lxcu/debian/bullseye
+	rm -fr /etc/lxcu/debian/buster
+	rm -fr /etc/lxcu/debian/stretch
+	rm -fr /etc/lxcu/fedora/40
+	rm -fr /etc/lxcu/fedora/39
+	rm -fr /etc/lxcu/fedora/38
+	rm -fr /etc/lxcu/fedora/37
+	rm -fr /etc/lxcu/fedora/36
+	rm -fr /etc/lxcu/fedora/35
+	rm -fr /etc/lxcu/opensuse/15.4
+	rm -fr /etc/lxcu/opensuse/15.3
+	rm -fr /etc/lxcu/ubuntu/focal
+	rm -fr /etc/lxcu/ubuntu/bionic
+	rm -fr /etc/lxcu/ubuntu/xenial
+esac
+
+#DEBHELPER#
+
+exit 0
+

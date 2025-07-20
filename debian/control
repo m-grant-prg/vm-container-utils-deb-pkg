@@ -1,0 +1,21 @@
+Source: vm-container-utils
+Section: misc
+Priority: optional
+Maintainer: Mark Grant <m.grant.prg@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+	txt2manwrap
+Standards-Version: 4.5.1
+Homepage: https://github.com/m-grant-prg/vm-container-utils/wiki
+Vcs-Git: https://github.com/m-grant-prg/vm-container-utils.git
+Vcs-Browser: https://github.com/m-grant-prg/vm-container-utils
+
+Package: vm-container-utils
+Architecture: all
+Depends: xmlstarlet,
+	agmaint, backup-at-scripts, server-dependency,
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
+Description: A collection of scripts to simplify some actions on virtual
+ machines and conatiners.
+ For libvirt, Qemu and KVM they start and stop machines and manage internal and
+ external snapshots.
