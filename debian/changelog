@@ -1,3 +1,9 @@
+vm-container-utils (1.3.5+ubuntu26.04u1) resolute; urgency=medium
+
+  * Create resolute
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 10 May 2026 10:54:56 +0100
+
 vm-container-utils (1.3.5+ubuntu24.04u1) noble; urgency=medium
 
   * New upstream release
